@@ -114,7 +114,7 @@ class mapping_hexa:
 
     
     picGpsTimeFlt = self.rostime2floatSecs(gps_data.header.stamp)
-    picNameTimeString = datetime.utcfromtimestamp(picGpsTimeFlt).strftime('%Y_%m_%d_T%_H%_%M_%S')
+    picNameTimeString = datetime.utcfromtimestamp(picGpsTimeFlt).strftime('%Y_%m_%d_T_%H_%M_%S')
     picSaveName = ""
     picSaveName = picNameTimeString + ".jpg"
     print("save image ")
