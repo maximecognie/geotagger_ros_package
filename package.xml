@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>geotagging</name>
+  <name>img_geotagger</name>
   <version>0.0.0</version>
   <description>The geotagging package</description>
   <maintainer email="sentiv@todo.todo">sentiv</maintainer>

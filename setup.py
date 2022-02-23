@@ -4,7 +4,7 @@ from catkin_pkg.python_setup import generate_distutils_setup
 
 d = generate_distutils_setup()
 
-d['packages'] = ['geotagging']
+d['packages'] = ['img_geotagger']
 d['package_dir'] = {'' : 'src'}
 
 setup(**d)
