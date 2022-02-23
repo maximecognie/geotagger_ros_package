@@ -106,7 +106,7 @@ class mapping_hexa:
     except CvBridgeError as e:
       print(e)
 
-    output_dir = "/home/sentiv/Pictures/"
+    output_dir = "/root/catkin_ws/photo"
     jpg_quality = 100
     compr = cv2.IMWRITE_JPEG_QUALITY;
     quality = jpg_quality  # jpg quality is in [0,100] range, png [0,9]
