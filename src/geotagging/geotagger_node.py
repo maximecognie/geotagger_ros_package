@@ -19,7 +19,7 @@ from fractions import Fraction
 from datetime import datetime
 
 # Constants that may change in multiple places
-MSG_QUEUE_MAXLEN = 50
+MSG_QUEUE_MAXLEN = 10
 
 class mapping_hexa:
 
