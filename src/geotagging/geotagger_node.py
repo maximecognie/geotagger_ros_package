@@ -19,7 +19,7 @@ from fractions import Fraction
 from datetime import datetime
 
 # Constants that may change in multiple places
-MSG_QUEUE_MAXLEN = 10
+MSG_QUEUE_MAXLEN = 50
 
 class mapping_hexa:
 
@@ -102,7 +102,7 @@ class mapping_hexa:
     rospy.loginfo("gps time: %i", gps_data.header.stamp.secs)
 
     try:
-      cv_img = self.bridge.imgmsg_to_cv2(img_data, "mono8")
+      cv_img = self.bridge.imgmsg_to_cv2(img_data, "bgr8")
     except CvBridgeError as e:
       print(e)
 
