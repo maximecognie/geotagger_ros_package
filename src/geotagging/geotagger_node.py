@@ -102,6 +102,7 @@ class mapping_hexa:
     rospy.loginfo("gps time: %i", gps_data.header.stamp.secs)
 
     try:
+      print(type(img_data))
       cv_img = self.bridge.imgmsg_to_cv2(img_data, desired_encoding='passthrough')
     except CvBridgeError as e:
       print(type(img_data))
