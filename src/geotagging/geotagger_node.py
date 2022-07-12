@@ -107,6 +107,7 @@ class mapping_hexa:
       print(type(img_data))
       print(e)
       
+    print("ok")  
     print(type(cv_img))
 
     output_dir = "/root/catkin_ws/photo"
