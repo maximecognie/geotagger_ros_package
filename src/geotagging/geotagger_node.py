@@ -125,8 +125,8 @@ class mapping_hexa:
 
     picGpsTimeFlt =self.rostime2floatSecs(gps_data.header.stamp)
     gpsTimeString = datetime.utcfromtimestamp(picGpsTimeFlt).strftime('%Y:%m:%d %H:%M:%S')
-    self.set_gps_location(picPath, lat=gps_data.latitude, lng=gps_data.longitude,
-                     altitude=gps_data.altitude, gpsTime=gpsTimeString)
+    #self.set_gps_location(picPath, lat=gps_data.latitude, lng=gps_data.longitude,
+                     #altitude=gps_data.altitude, gpsTime=gpsTimeString)
     print(gps_data.latitude)
 
 
